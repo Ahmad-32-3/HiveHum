@@ -1,0 +1,27 @@
+{
+  "mae": 9.59,
+  "mae_ci": [
+    6.23,
+    12.57
+  ],
+  "rmse": 10.85,
+  "mape": 63.9,
+  "spearman": null,
+  "n_test": 10,
+  "same_hive_mae": 3.6,
+  "same_hive_mape": 24.0,
+  "loho_mape": 63.9,
+  "mean_base_mae": 6.98,
+  "skill_same_pct": 48.0,
+  "skill_loho_pct": -37.0,
+  "overfit_gap_pct": 166.0,
+  "n_train": 43,
+  "train_ids": [
+    "3629",
+    "3690"
+  ],
+  "test_id": "3627",
+  "hours_used": 43.2,
+  "year": 2021,
+  "features": "audio"
+}

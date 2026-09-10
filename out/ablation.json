@@ -1,0 +1,84 @@
+{
+  "test_id": "3627",
+  "year": 2021,
+  "n_test": 9,
+  "n_train": 24,
+  "base_mae": 11.88,
+  "skill_same_pct": 72,
+  "skill_loho_pct": 3,
+  "overfit_gap_pct": 250,
+  "table": {
+    "audio": {
+      "same_hive": {
+        "mae": 3.3,
+        "mae_ci": [
+          2.57,
+          3.92
+        ],
+        "rmse": 3.46,
+        "mape": 22.0,
+        "spearman": null,
+        "n_test": 9
+      },
+      "loho": {
+        "mae": 11.55,
+        "mae_ci": [
+          9.08,
+          13.32
+        ],
+        "rmse": 11.97,
+        "mape": 77.0,
+        "spearman": null,
+        "n_test": 9
+      }
+    },
+    "temp": {
+      "same_hive": {
+        "mae": 2.68,
+        "mae_ci": [
+          2.36,
+          2.93
+        ],
+        "rmse": 2.72,
+        "mape": 17.9,
+        "spearman": null,
+        "n_test": 9
+      },
+      "loho": {
+        "mae": 13.1,
+        "mae_ci": [
+          12.35,
+          13.74
+        ],
+        "rmse": 13.15,
+        "mape": 87.3,
+        "spearman": null,
+        "n_test": 9
+      }
+    },
+    "both": {
+      "same_hive": {
+        "mae": 3.37,
+        "mae_ci": [
+          2.58,
+          4.07
+        ],
+        "rmse": 3.56,
+        "mape": 22.5,
+        "spearman": null,
+        "n_test": 9
+      },
+      "loho": {
+        "mae": 10.87,
+        "mae_ci": [
+          8.49,
+          12.76
+        ],
+        "rmse": 11.34,
+        "mape": 72.5,
+        "spearman": null,
+        "n_test": 9
+      }
+    }
+  }
+}
